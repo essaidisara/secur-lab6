@@ -1,0 +1,27 @@
+Corrélation MASVS :
+-----------------
+Vulnérabilité : Mode debug activé
+Référence MASVS : MSTG-RESILIENCE-1
+Description : L'application ne doit pas être debuggable en production.
+Preuve : android:debuggable=true dans le manifest
+Impact : Facilite l'analyse et le reverse engineering
+
+Vulnérabilité : Sauvegarde des données activée
+Référence MASVS : MSTG-STORAGE-1
+Description : Les données sensibles doivent être protégées contre l'extraction.
+Preuve : android:allowBackup=true dans le manifest
+Impact : Risque de fuite de données utilisateur
+
+Vulnérabilité : Composants exportés
+Référence MASVS : MSTG-PLATFORM-1
+Description : Les composants doivent être correctement protégés contre les accès externes.
+Preuve : android:exported=true pour Activity et Receiver
+Impact : Accès non autorisé possible par d'autres applications
+
+Tests MASTG complémentaires :
+---------------------------
+MASTG-TEST-001 : Vérification du mode debug
+Objectif : S'assurer que l'application n'est pas debuggable en production
+
+MASTG-TEST-002 : Analyse des composants exportés
+Objectif : Vérifier que seuls les composants nécessaires sont exposés

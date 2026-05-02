@@ -1,0 +1,6 @@
+Vulnérabilités critiques :
+------------------------
+App installable sur Android vulnérable (minSdk=24)
+Mode debug activé (android:debuggable=true)
+Sauvegarde activée (android:allowBackup=true)
+Receiver exporté accessible (ProfileInstallReceiver)

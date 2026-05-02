@@ -1,0 +1,7 @@
+Permissions dangereuses :
+------------------------
+Aucune permission dangereuse détectée
+
+Permissions normales / custom :
+-------------------------------
+com.example.pizzarecipes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION (protection signature)

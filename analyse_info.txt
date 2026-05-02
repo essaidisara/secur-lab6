@@ -1,0 +1,13 @@
+Date d'analyse : Sat 02 May 2026 05:59:30 AM EDT
+Analyste : TON_NOM
+APK analysé : app-debug.apk
+458ac7460ecaa4c8943e1351ae3a53735a9accd519f3c36d8650b81d9aff4f0f  app-debug.apk
+MobSF version : 4.0.6 MobSF version : 4.0.6
+Début d'analyse : Sat 02 May 2026 06:16:43 AM EDT
+Début d'analyse : Sat 02 May 2026 06:16:57 AM EDT
+Fin d'analyse : Sat 02 May 2026 06:21:58 AM EDT
+Score de sécurité : 36
+Rapport exporté : MobSF_Report_20260502.pdf
+Rapport exporté : MobSF_Report_20260502.pdf
+Rapport final complété : rapport_final.md
+Rapport final complété : rapport_final.md

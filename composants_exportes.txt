@@ -1,0 +1,4 @@
+Composants exportés :
+-------------------
+SplashActivity (exported=true, intent-filter MAIN/LAUNCHER)
+ProfileInstallReceiver (exported=true)
